@@ -1,0 +1,82 @@
+.job-manager-jobs {
+	border: 1px solid #ccc;
+	@include bp(sm) {
+		/*border: none;*/
+	}
+	thead{
+		th{
+			padding: 10px;
+			background: #fbfbfb;
+			/*background: #eee;*/
+			border: 1px solid #ccc;
+			font-size: 12px;
+			text-align: center;
+			line-height: 180%;
+			vertical-align: middle;
+			@include bp(sm) {
+				/*padding: 5px 2px;*/
+				/*background: none;*/
+				/*border: none;*/
+				font-size: 12px;
+				line-height: 200%;
+			}
+		}
+	}
+	td {
+		padding: 20px 10px;
+		border: 1px solid #ccc;
+		text-align: center;
+		@include bp(sm) {
+			/*padding: 20px 10px 20px 0;*/
+			padding: 10px;
+			/*border: none;*/
+			text-align: left;
+		}
+		&:first-child {
+			text-align: left;
+		}
+	}
+	tbody {
+		tr {
+			&:nth-child(even) {
+				background: #fbfbfb;
+				@include bp(sm) {
+					background: none;
+				}
+			}
+		}
+	}
+
+}
+
+.job-manager-jobs td.job_title {
+	font-size: 18px;
+}
+#job-manager-job-dashboard {
+	overflow: auto;
+}
+.form10 {
+	.col-2 {
+		width: 100%!important;
+		@include bp(pt) {
+			width: 50%!important;
+		}
+	}
+	input[type="text"] {
+		font-size: 12px!important;
+		@include bp(sm) {
+			font-size: 16px;
+		}
+	}
+	.wdform-element-section {
+		width: auto!important;
+	}
+	.button-submit {
+		width: auto!important;
+		@media (max-width: 500px){
+			width: 100%!important;
+		}
+	}
+}
+
+

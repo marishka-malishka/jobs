@@ -1,0 +1,100 @@
+header {
+
+    .container {
+       /* padding: 0;
+
+        &:first-child {
+            padding: 1.5em 0 0 0;
+        }
+
+        &:last-child {
+            padding: 0 0 1.5em 0;
+
+            a.button{
+                float: right;
+            }
+        }*/
+
+        .button-wrap{
+            display: table-cell;
+            text-align: right;
+            vertical-align: middle;
+            float: left;
+            clear: both;
+            padding: 15px 0 0;
+            /*width: 100%;*/
+
+            &.header-button{
+                a {
+                    font-size: 12px;
+                }
+            }
+
+            @include bp(sm) {
+              float: right;
+              padding: 12px 0;
+            }
+
+            @include bp(md) {
+              clear: both;
+              padding: 42px 0 0;
+            }
+
+            @include bp(lg) {
+              padding: 12px 0 0;
+            }
+
+            @include bp(pt) {
+                width: auto;
+                clear: right;
+            }
+        }
+
+        /*.social-wrap {
+            display: table-row;*/
+
+            .header-social {
+                display: table-cell;
+                float: right;
+                /*width: 100%;*/
+                /*padding: 15px 0 0 0;*/
+                vertical-align: middle;
+                white-space: nowrap;
+                margin: 8px 0 0;
+
+                .social-icon {
+                    display: inline-block;
+                    line-height: 30px;
+                    background: rgba(65, 74, 99, .4);
+                    width: 30px;
+                    height: 30px;
+                    font-size: 14px;
+                    vertical-align: middle;
+                    text-align: center;
+                    border-radius: 50%;
+                    margin: 0 2px;
+                    transition: all 0.5s ease;
+
+                    a {
+                        span {
+                            color: #fff;
+                        }
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+
+                    &:hover{
+                        background: rgba(65, 74, 99, .9);
+                    }
+                }
+
+                @include bp(sm) {
+                    margin: 0;
+                }
+            }
+    }
+
+    }
+/*}*/

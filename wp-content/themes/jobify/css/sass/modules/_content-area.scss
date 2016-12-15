@@ -1,0 +1,16 @@
+.content-area {
+    margin-top: 4em;
+    margin-bottom: 0;
+
+    @include bp(pt){
+        margin-bottom: 4em;
+    }
+
+    pre{
+        white-space: normal;
+    }
+}
+
+.content-area--squash {
+    margin-top: 0;
+}

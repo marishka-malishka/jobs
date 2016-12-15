@@ -1,0 +1,32 @@
+.clr{
+	clear:both;
+}
+.custom-reg{
+	width: 700px;
+}
+.custom-reg .form{
+	text-align: right;
+	border-bottom: solid 2px #000;
+	padding: 10px 0;
+}
+.custom-reg .form:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.custom-reg .save{
+	width: 70px;
+	height:25px;
+	border-radius: 5px;
+	border: solid 1px #333;
+	background: #0D0;
+	color: #000;
+	font-size:14px;
+	font-weight:bold;
+	text-align: center;
+	margin-top: 10px;
+	float: right;
+}
+.custom-reg h2{
+	text-align: left;
+}

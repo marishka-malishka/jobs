@@ -1,0 +1,60 @@
+.price-table {
+	@extend .content-grid;
+	text-align: center;
+}
+
+.price-option {
+    text-align: center;
+	width: 100%;
+	margin-bottom: 3em;
+    box-shadow: 0 0 40px #c7c7c7;
+}
+
+.price-option__title {
+    font-size: 22px;
+    color: #fff;
+    padding: 15px 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.price-option__price {
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.price-option__duration {
+    font: 700 14px/normal Montserrat,sans-serif;
+    text-transform: uppercase;
+}
+
+.price-option__description {
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-top: 0;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+    h1{
+      font-size: 30px;
+    }
+
+    h2 {
+        @extend .price-option__price;
+    }
+
+    p {
+        margin: 1.5em 0;
+		line-height: 36px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+}

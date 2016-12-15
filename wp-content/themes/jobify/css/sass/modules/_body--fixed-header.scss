@@ -1,0 +1,9 @@
+body.fixed-header {
+	.site-header {
+		@include bp(sm) {
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+.nav-menu > ul,
+ul.nav-menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	.sub-menu {
+		background: #ececec;
+		padding: 5px 15px;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #fff;
+
+		a {
+			font-size: 18px;
+			@include bp(sm) {
+				font-size: 14px;
+			}
+		}
+	}
+}

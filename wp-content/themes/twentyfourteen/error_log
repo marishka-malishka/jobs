@@ -1,0 +1,1 @@
+[28-Nov-2016 08:48:58 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home5/jobsmark/public_html/wp-content/themes/twentyfourteen/index.php on line 17

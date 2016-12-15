@@ -1,0 +1,12 @@
+.widget-title {
+	font-weight: normal;
+	margin-top: 0;
+}
+aside {
+	.widget-title {
+		text-align: center;
+		@include bp(sm) {
+			text-align: left;
+		}
+	}
+}

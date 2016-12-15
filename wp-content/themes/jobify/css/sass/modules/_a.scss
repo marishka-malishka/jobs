@@ -1,0 +1,47 @@
+a {
+    color: #24262B;
+    text-decoration: none;
+
+    &:focus {
+        outline: thin dotted;
+    }
+
+    &:active,
+    &:hover {
+        outline: 0;
+    }
+
+    &:hover {
+        color: #4eb318;
+        text-decoration: underline;
+    }
+}
+
+.social-icon {
+    display: inline-block;
+    line-height: 30px;
+    background: rgba(65, 74, 99, .4);
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 2px;
+    transition: all 0.5s ease;
+
+    a {
+        span {
+            color: #fff;
+        }
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    &:hover {
+        background: rgba(65, 74, 99, .9);
+    }
+}
+

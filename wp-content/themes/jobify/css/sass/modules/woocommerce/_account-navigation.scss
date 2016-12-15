@@ -1,0 +1,27 @@
+.woocommerce-MyAccount-navigation {
+	@extend .wc-tabs-wrapper;
+	margin-top: 0;
+
+	ul {
+		@extend .wc-tabs;
+	}
+}
+
+.woocommerce-MyAccount-navigation-link {
+	display: inline-block;
+}
+
+.woocommerce-account {
+	.woocommerce-MyAccount-content {
+		margin-top: 2em;
+		width: 100%;
+		float: none;
+	}
+	.woocommerce-FormRow--first.form-row-first,
+	.woocommerce-FormRow--last.form-row-last {
+		width: 100%;
+		@include bp(pt) {
+			width: 49%;
+		}
+	}
+}

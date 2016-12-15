@@ -1,0 +1,10 @@
+.job_listings li.wp-job-manager-attribution-row {
+	margin-top: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-top: 0;
+
+	&:hover {
+		box-shadow: none !important;
+	}
+}

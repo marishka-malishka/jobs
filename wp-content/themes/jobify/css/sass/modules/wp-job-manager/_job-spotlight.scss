@@ -1,0 +1,56 @@
+.job-spotlight {
+	text-align: left;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	margin-bottom: 3em;
+	transition: all 0.5s ease;
+
+	&:hover{
+		border-color: #4eb318;
+	}
+}
+
+.job-spotlight__featured-image {
+	overflow: hidden;
+
+	img,
+    a {
+		margin: auto;
+		max-width: 100%;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		display: block;
+		@include bp(md) {
+			min-width: 100%;
+		}
+	}
+}
+
+.job-spotlight__title {
+	font-size: 18px;
+	color: inherit;
+}
+
+.job-spotlight__content {
+	padding: 2em;
+
+	p {
+		&:last-child {
+			margin-bottom: 0;
+			height: 120px;
+			overflow: hidden;
+		}
+	}
+}
+.job-spotlight__actions {
+	margin-bottom: 1em;
+
+	span {
+		margin-right: 1em;
+	}
+
+	.job-type {
+		display: inline-block;
+		margin-top: 10px;
+	}
+}

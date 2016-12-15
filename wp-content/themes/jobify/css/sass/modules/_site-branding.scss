@@ -1,0 +1,13 @@
+.site-branding {
+	width: 40%;
+
+	@include bp(lg) {
+		display: table-cell;
+		vertical-align: middle;
+		width: auto;
+	}
+
+	@include bp(mdr) {
+		float: left;
+	}
+}

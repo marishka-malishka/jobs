@@ -1,0 +1,93 @@
+#comments{
+	
+}
+#comments .add_comment{
+	margin: 7px 10px 7px 0;
+    display: block;
+    border: solid 2px #aaa;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    width: 250px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+#comments .item{
+	width: 900px;
+	height: auto;
+	padding: 5px;
+	border: solid 1px #000;
+}
+#comments .item .open_button{
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	border:solid 1px #000;
+	margin: -5px -5px 5px; 
+	font-size: 20px;
+	color: #fff;
+	background: #333;
+	font-weight: bold;
+	text-decoration: none;
+} 
+#comments .item .content{
+	display: none;
+}
+#comments .item .photo{
+	width: 130px;
+	float: left;
+	height: 150px;
+	border: solid 1px #000;
+	margin-right: 10px;
+}
+#comments .item .photo .image{
+	width: 80px;
+	display: block;
+	height: 80px;
+	border-radius: 50%;
+	margin: 10px auto 20px;
+	overflow: hidden;
+}
+#comments .item .photo .image img{
+	width:100%;
+}
+#comments .item .photo .file{
+	width: 115px;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+}
+#comments .item .text{
+	float: left;
+	width: 755px;
+	height: auto;
+	border: solid 1px #000;
+}
+#comments .item .text iframe{
+	height: 205px !important;
+}
+#comments .item .sign{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+#comments .item .sign input{
+	font-weight: bold;
+	text-align: right;
+}
+#comments .item .sign input+input{
+	text-align: left;
+	font-weight: normal;
+}
+#comments .item .options{
+	margin-left: -5px;
+	margin-right: -5px;
+	border-top: solid 1px #000;
+	text-align:right;
+	padding: 5px;
+}
+#comments .item .options input{
+	display: inline-block;
+}

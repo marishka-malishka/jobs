@@ -1,0 +1,8 @@
+[13-Dec-2016 19:01:44 America/Denver] PHP Notice:  Use of undefined constant WP_PLUGIN_DIR - assumed 'WP_PLUGIN_DIR' in /home5/jobsmark/public_html/wp-content/plugins/form-maker/form-maker.php on line 11
+[13-Dec-2016 19:01:44 America/Denver] PHP Fatal error:  Call to undefined function plugin_basename() in /home5/jobsmark/public_html/wp-content/plugins/form-maker/form-maker.php on line 11
+[14-Dec-2016 02:55:11 America/Denver] PHP Notice:  Use of undefined constant WP_PLUGIN_DIR - assumed 'WP_PLUGIN_DIR' in /home5/jobsmark/public_html/wp-content/plugins/form-maker/form-maker.php on line 11
+[14-Dec-2016 02:55:11 America/Denver] PHP Fatal error:  Call to undefined function plugin_basename() in /home5/jobsmark/public_html/wp-content/plugins/form-maker/form-maker.php on line 11
+[14-Dec-2016 14:17:54 America/Denver] PHP Notice:  Use of undefined constant WP_PLUGIN_DIR - assumed 'WP_PLUGIN_DIR' in /home5/jobsmark/public_html/wp-content/plugins/form-maker/form-maker.php on line 11
+[14-Dec-2016 14:17:54 America/Denver] PHP Fatal error:  Call to undefined function plugin_basename() in /home5/jobsmark/public_html/wp-content/plugins/form-maker/form-maker.php on line 11
+[14-Dec-2016 20:03:27 America/Denver] PHP Notice:  Use of undefined constant WP_PLUGIN_DIR - assumed 'WP_PLUGIN_DIR' in /home5/jobsmark/public_html/wp-content/plugins/form-maker/form-maker.php on line 11
+[14-Dec-2016 20:03:27 America/Denver] PHP Fatal error:  Call to undefined function plugin_basename() in /home5/jobsmark/public_html/wp-content/plugins/form-maker/form-maker.php on line 11

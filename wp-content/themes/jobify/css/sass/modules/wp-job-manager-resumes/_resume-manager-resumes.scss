@@ -1,0 +1,39 @@
+.resume-manager-resumes {
+	@extend .job-manager-jobs;
+
+	td,thead th {
+		border: 1px solid #ccc;
+		padding: 10px;
+	}
+
+    thead th{
+      background: #fbfbfb;
+    }
+}
+
+.resume-manager-resumes td.resume-title {
+	font-size: 18px;
+}
+
+.resume-manager-resumes tfoot a{
+	font: 700 14px/normal AvertaDemo-Regular,sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px 20px;
+	border-radius: 4px;
+	display: inline-block;
+	border-style: solid;
+	border-width: 2px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+	color: #4eb318;
+	border-color: #4eb318;
+
+	&:hover{
+		background-color: #4eb318;
+		border-color: transparent;
+		color: #fff;
+		text-decoration: none;
+	}
+}

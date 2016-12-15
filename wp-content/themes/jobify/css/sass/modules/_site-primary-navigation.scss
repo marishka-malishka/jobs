@@ -1,0 +1,21 @@
+.site-primary-navigation {
+	margin-top: 2em;
+	display: none;
+	float: right;
+	background: #fafafa;
+
+	@include bp(sm) {
+		margin-top: 0;
+		background: transparent;
+		display: table-cell;
+		vertical-align: middle;
+		/*text-align: right;*/
+		width: auto;
+	}
+}
+
+.site-primary-navigation--open {
+	display: block;
+	width: 100%;
+	padding: 15px 0;
+}
